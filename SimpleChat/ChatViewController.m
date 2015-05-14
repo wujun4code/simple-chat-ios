@@ -152,6 +152,7 @@
 }
 
 #pragma mark - keyboard
+
 - (void)keyboardWillShow:(NSNotification *)notification {
 	NSDictionary *info = notification.userInfo;
 	NSValue *kbFrame = [info objectForKey:UIKeyboardFrameEndUserInfoKey];

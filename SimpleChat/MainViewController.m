@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = @"主页";
-	self.otherIdTextField.text = @"b";
+//	self.otherIdTextField.text = @"b";
 }
 
 - (void)didReceiveMemoryWarning {
